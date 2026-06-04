@@ -419,7 +419,7 @@ h1{
 
     <div class="inner" id="inner">
       <div style="text-align:center">
-        <div class="ribbon-pill">Você está convidada! ♥</div>
+        <div class="ribbon-pill">Você está convidado! ♥</div>
         <div class="sub">Festa da</div>
         <h1>Ana Helena</h1>
         <div class="age-badge">♥ 3 anos ♥</div>
