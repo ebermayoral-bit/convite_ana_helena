@@ -132,6 +132,16 @@ html,body{height:100%;overflow:hidden}
   right:clamp(2px,1vw,10px);
   bottom:clamp(28px,7vh,50px);
 }
+/* meio esquerdo */
+.owl-ml{
+  left:clamp(2px,1vw,8px);
+  bottom:clamp(95px,21vh,135px);
+}
+/* meio direito */
+.owl-mr{
+  right:clamp(2px,1vw,8px);
+  bottom:clamp(95px,21vh,135px);
+}
 
 /* grama */
 .grass{
@@ -234,12 +244,16 @@ h1{
 .det-icon{font-size:clamp(14px,4vw,22px);width:clamp(20px,5.5vw,30px);text-align:center}
 .det b{display:block;color:#b31262;text-transform:uppercase;font-size:clamp(7px,1.8vw,10px);margin-bottom:2px}
 .det span{font-size:clamp(9px,2.4vw,12px);font-weight:700;color:#4a1430;line-height:1.25}
-.actions{display:flex;flex-direction:column;gap:clamp(5px,1.1vh,8px);margin-bottom:clamp(4px,.9vh,7px)}
+.actions{
+  display:flex;flex-direction:row;justify-content:center;
+  gap:clamp(6px,2vw,12px);margin-bottom:clamp(4px,.9vh,7px);
+}
 .btn{
-  display:block;text-decoration:none;border-radius:999px;
-  padding:clamp(7px,1.6vh,10px) 14px;
-  color:#fff;font-size:clamp(11px,2.8vw,13px);font-weight:900;
+  display:inline-block;text-decoration:none;border-radius:999px;
+  padding:clamp(7px,1.6vh,10px) clamp(10px,3vw,18px);
+  color:#fff;font-size:clamp(10px,2.6vw,12px);font-weight:900;
   box-shadow:0 6px 18px rgba(120,0,70,.22);text-align:center;
+  white-space:nowrap;
 }
 .btn-wa{background:linear-gradient(90deg,#ff2f9f,#ff82c8)}
 .btn-mp{background:linear-gradient(90deg,#c21873,#ff4fa3)}
@@ -382,7 +396,6 @@ h1{
     </g>
   </g>
 </svg></div>
-      <!-- corujinha inferior esquerda -->
       <div class="owl-pos owl-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"
      width="74px" style="display:block;filter:drop-shadow(0 4px 8px rgba(150,0,80,.22))">
   <g >
@@ -481,9 +494,204 @@ h1{
     </g>
   </g>
 </svg></div>
-      <!-- corujinha inferior direita (espelhada) -->
       <div class="owl-pos owl-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"
      width="74px" style="display:block;filter:drop-shadow(0 4px 8px rgba(150,0,80,.22))">
+  <g transform="scale(-1,1) translate(-100,0)">
+    
+    
+      <g opacity=".95">
+        <ellipse cx="37" cy="113" rx="8" ry="5" fill="#f5c842" transform="rotate(-12,37,113)"/>
+        <ellipse cx="63" cy="113" rx="8" ry="5" fill="#f5c842" transform="rotate(12,63,113)"/>
+        <line x1="32" y1="113" x2="28" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="37" y1="114" x2="36" y2="118" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="42" y1="113" x2="45" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="58" y1="113" x2="55" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="63" y1="114" x2="64" y2="118" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="68" y1="113" x2="72" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+    <!-- corpo arredondado -->
+    <ellipse cx="50" cy="88" rx="28" ry="26" fill="#fbcfe8"/>
+    <!-- peito branco -->
+    <ellipse cx="50" cy="93" rx="18" ry="18" fill="#fff8fc"/>
+    <!-- sombra lateral suave -->
+    <ellipse cx="28" cy="88" rx="8" ry="20" fill="#f9a8d4" opacity=".35"/>
+    <ellipse cx="72" cy="88" rx="8" ry="20" fill="#f9a8d4" opacity=".35"/>
+    <!-- asas -->
+    <ellipse cx="24" cy="90" rx="10" ry="16" fill="#f9a8d4" transform="rotate(-18,24,90)"/>
+    <ellipse cx="76" cy="90" rx="10" ry="16" fill="#f9a8d4" transform="rotate(18,76,90)"/>
+    <ellipse cx="24" cy="90" rx="6" ry="10" fill="#fbcfe8" transform="rotate(-18,24,90)"/>
+    <ellipse cx="76" cy="90" rx="6" ry="10" fill="#fbcfe8" transform="rotate(18,76,90)"/>
+    <!-- corações no peito -->
+    <text x="50" y="96" text-anchor="middle" font-size="6" fill="#f472b6" opacity=".8">♥ ♥</text>
+    <text x="50" y="104" text-anchor="middle" font-size="5" fill="#f9a8d4" opacity=".9">♥  ♥  ♥</text>
+    <!-- cabeça grande -->
+    <circle cx="50" cy="58" r="30" fill="#fbcfe8"/>
+    <!-- orelhas/tufos -->
+    <ellipse cx="28" cy="32" rx="7" ry="11" fill="#fbcfe8" transform="rotate(-25,28,32)"/>
+    <ellipse cx="72" cy="32" rx="7" ry="11" fill="#fbcfe8" transform="rotate(25,72,32)"/>
+    <ellipse cx="28" cy="32" rx="4" ry="7" fill="#f9a8d4" transform="rotate(-25,28,32)"/>
+    <ellipse cx="72" cy="32" rx="4" ry="7" fill="#f9a8d4" transform="rotate(25,72,32)"/>
+    <!-- topete fofo -->
+    <ellipse cx="50" cy="29" rx="8" ry="6" fill="#fce7f3"/>
+    <ellipse cx="44" cy="27" rx="5" ry="4" fill="#fbcfe8"/>
+    <ellipse cx="56" cy="27" rx="5" ry="4" fill="#fbcfe8"/>
+    <!-- rosto borda suave -->
+    <ellipse cx="50" cy="58" rx="22" ry="20" fill="#fff8fc" opacity=".55"/>
+    <!-- olhos castanho-escuro muito grandes -->
+    <circle cx="38" cy="56" r="11" fill="#3b1a0a"/>
+    <circle cx="62" cy="56" r="11" fill="#3b1a0a"/>
+    <!-- íris + brilho -->
+    <circle cx="38" cy="56" r="8" fill="#5c2d0a"/>
+    <circle cx="62" cy="56" r="8" fill="#5c2d0a"/>
+    <circle cx="38" cy="56" r="5" fill="#7a3c10"/>
+    <circle cx="62" cy="56" r="5" fill="#7a3c10"/>
+    <!-- pupila -->
+    <circle cx="38" cy="56" r="3.5" fill="#1a0a02"/>
+    <circle cx="62" cy="56" r="3.5" fill="#1a0a02"/>
+    <!-- brilho primário -->
+    <circle cx="34" cy="51" r="2.5" fill="white" opacity=".92"/>
+    <circle cx="58" cy="51" r="2.5" fill="white" opacity=".92"/>
+    <!-- brilho secundário pequeno -->
+    <circle cx="41" cy="59" r="1.2" fill="white" opacity=".7"/>
+    <circle cx="65" cy="59" r="1.2" fill="white" opacity=".7"/>
+    <!-- anel branco ao redor dos olhos -->
+    <circle cx="38" cy="56" r="11" fill="none" stroke="white" stroke-width="2.5" opacity=".6"/>
+    <circle cx="62" cy="56" r="11" fill="none" stroke="white" stroke-width="2.5" opacity=".6"/>
+    <!-- cílios delicados -->
+    <line x1="29" y1="46" x2="26" y2="43" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="32" y1="44" x2="31" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="36" y1="44" x2="36" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="53" y1="44" x2="53" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="57" y1="44" x2="57" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="61" y1="44" x2="63" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- bico pequeno amarelo-dourado -->
+    <ellipse cx="50" cy="68" rx="5" ry="3.5" fill="#f5c842"/>
+    <ellipse cx="50" cy="66" rx="5" ry="3" fill="#f5c842"/>
+    <line x1="45" y1="67" x2="55" y2="67" stroke="#e0a800" stroke-width=".8"/>
+    <!-- bochecha rosa suave -->
+    <ellipse cx="32" cy="65" rx="6" ry="4" fill="#f9a8d4" opacity=".5"/>
+    <ellipse cx="68" cy="65" rx="6" ry="4" fill="#f9a8d4" opacity=".5"/>
+    <!-- laço rosa com bolinhas brancas - lado superior esquerdo -->
+    <g transform="translate(18,26) rotate(-12)">
+      <!-- asa esquerda do laço -->
+      <ellipse cx="-7" cy="0" rx="9" ry="6" fill="#f472b6"/>
+      <!-- asa direita do laço -->
+      <ellipse cx="7" cy="0" rx="9" ry="6" fill="#f472b6"/>
+      <!-- centro do laço -->
+      <circle cx="0" cy="0" r="4" fill="#ec4899"/>
+      <!-- bolinhas brancas asa esq -->
+      <circle cx="-9" cy="-1" r="1.4" fill="white" opacity=".85"/>
+      <circle cx="-6" cy="2" r="1.1" fill="white" opacity=".85"/>
+      <circle cx="-11" cy="2" r="1" fill="white" opacity=".75"/>
+      <!-- bolinhas brancas asa dir -->
+      <circle cx="9" cy="-1" r="1.4" fill="white" opacity=".85"/>
+      <circle cx="6" cy="2" r="1.1" fill="white" opacity=".85"/>
+      <circle cx="11" cy="2" r="1" fill="white" opacity=".75"/>
+      <!-- ponto brilhante centro -->
+      <circle cx="0" cy="-1" r="1.5" fill="white" opacity=".7"/>
+    </g>
+  </g>
+</svg></div>
+      <div class="owl-pos owl-ml"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"
+     width="62px" style="display:block;filter:drop-shadow(0 4px 8px rgba(150,0,80,.22))">
+  <g >
+    
+    
+      <g opacity=".95">
+        <ellipse cx="37" cy="113" rx="8" ry="5" fill="#f5c842" transform="rotate(-12,37,113)"/>
+        <ellipse cx="63" cy="113" rx="8" ry="5" fill="#f5c842" transform="rotate(12,63,113)"/>
+        <line x1="32" y1="113" x2="28" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="37" y1="114" x2="36" y2="118" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="42" y1="113" x2="45" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="58" y1="113" x2="55" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="63" y1="114" x2="64" y2="118" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+        <line x1="68" y1="113" x2="72" y2="116" stroke="#f5c842" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+    <!-- corpo arredondado -->
+    <ellipse cx="50" cy="88" rx="28" ry="26" fill="#fbcfe8"/>
+    <!-- peito branco -->
+    <ellipse cx="50" cy="93" rx="18" ry="18" fill="#fff8fc"/>
+    <!-- sombra lateral suave -->
+    <ellipse cx="28" cy="88" rx="8" ry="20" fill="#f9a8d4" opacity=".35"/>
+    <ellipse cx="72" cy="88" rx="8" ry="20" fill="#f9a8d4" opacity=".35"/>
+    <!-- asas -->
+    <ellipse cx="24" cy="90" rx="10" ry="16" fill="#f9a8d4" transform="rotate(-18,24,90)"/>
+    <ellipse cx="76" cy="90" rx="10" ry="16" fill="#f9a8d4" transform="rotate(18,76,90)"/>
+    <ellipse cx="24" cy="90" rx="6" ry="10" fill="#fbcfe8" transform="rotate(-18,24,90)"/>
+    <ellipse cx="76" cy="90" rx="6" ry="10" fill="#fbcfe8" transform="rotate(18,76,90)"/>
+    <!-- corações no peito -->
+    <text x="50" y="96" text-anchor="middle" font-size="6" fill="#f472b6" opacity=".8">♥ ♥</text>
+    <text x="50" y="104" text-anchor="middle" font-size="5" fill="#f9a8d4" opacity=".9">♥  ♥  ♥</text>
+    <!-- cabeça grande -->
+    <circle cx="50" cy="58" r="30" fill="#fbcfe8"/>
+    <!-- orelhas/tufos -->
+    <ellipse cx="28" cy="32" rx="7" ry="11" fill="#fbcfe8" transform="rotate(-25,28,32)"/>
+    <ellipse cx="72" cy="32" rx="7" ry="11" fill="#fbcfe8" transform="rotate(25,72,32)"/>
+    <ellipse cx="28" cy="32" rx="4" ry="7" fill="#f9a8d4" transform="rotate(-25,28,32)"/>
+    <ellipse cx="72" cy="32" rx="4" ry="7" fill="#f9a8d4" transform="rotate(25,72,32)"/>
+    <!-- topete fofo -->
+    <ellipse cx="50" cy="29" rx="8" ry="6" fill="#fce7f3"/>
+    <ellipse cx="44" cy="27" rx="5" ry="4" fill="#fbcfe8"/>
+    <ellipse cx="56" cy="27" rx="5" ry="4" fill="#fbcfe8"/>
+    <!-- rosto borda suave -->
+    <ellipse cx="50" cy="58" rx="22" ry="20" fill="#fff8fc" opacity=".55"/>
+    <!-- olhos castanho-escuro muito grandes -->
+    <circle cx="38" cy="56" r="11" fill="#3b1a0a"/>
+    <circle cx="62" cy="56" r="11" fill="#3b1a0a"/>
+    <!-- íris + brilho -->
+    <circle cx="38" cy="56" r="8" fill="#5c2d0a"/>
+    <circle cx="62" cy="56" r="8" fill="#5c2d0a"/>
+    <circle cx="38" cy="56" r="5" fill="#7a3c10"/>
+    <circle cx="62" cy="56" r="5" fill="#7a3c10"/>
+    <!-- pupila -->
+    <circle cx="38" cy="56" r="3.5" fill="#1a0a02"/>
+    <circle cx="62" cy="56" r="3.5" fill="#1a0a02"/>
+    <!-- brilho primário -->
+    <circle cx="34" cy="51" r="2.5" fill="white" opacity=".92"/>
+    <circle cx="58" cy="51" r="2.5" fill="white" opacity=".92"/>
+    <!-- brilho secundário pequeno -->
+    <circle cx="41" cy="59" r="1.2" fill="white" opacity=".7"/>
+    <circle cx="65" cy="59" r="1.2" fill="white" opacity=".7"/>
+    <!-- anel branco ao redor dos olhos -->
+    <circle cx="38" cy="56" r="11" fill="none" stroke="white" stroke-width="2.5" opacity=".6"/>
+    <circle cx="62" cy="56" r="11" fill="none" stroke="white" stroke-width="2.5" opacity=".6"/>
+    <!-- cílios delicados -->
+    <line x1="29" y1="46" x2="26" y2="43" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="32" y1="44" x2="31" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="36" y1="44" x2="36" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="53" y1="44" x2="53" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="57" y1="44" x2="57" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="61" y1="44" x2="63" y2="41" stroke="#3b1a0a" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- bico pequeno amarelo-dourado -->
+    <ellipse cx="50" cy="68" rx="5" ry="3.5" fill="#f5c842"/>
+    <ellipse cx="50" cy="66" rx="5" ry="3" fill="#f5c842"/>
+    <line x1="45" y1="67" x2="55" y2="67" stroke="#e0a800" stroke-width=".8"/>
+    <!-- bochecha rosa suave -->
+    <ellipse cx="32" cy="65" rx="6" ry="4" fill="#f9a8d4" opacity=".5"/>
+    <ellipse cx="68" cy="65" rx="6" ry="4" fill="#f9a8d4" opacity=".5"/>
+    <!-- laço rosa com bolinhas brancas - lado superior esquerdo -->
+    <g transform="translate(18,26) rotate(-12)">
+      <!-- asa esquerda do laço -->
+      <ellipse cx="-7" cy="0" rx="9" ry="6" fill="#f472b6"/>
+      <!-- asa direita do laço -->
+      <ellipse cx="7" cy="0" rx="9" ry="6" fill="#f472b6"/>
+      <!-- centro do laço -->
+      <circle cx="0" cy="0" r="4" fill="#ec4899"/>
+      <!-- bolinhas brancas asa esq -->
+      <circle cx="-9" cy="-1" r="1.4" fill="white" opacity=".85"/>
+      <circle cx="-6" cy="2" r="1.1" fill="white" opacity=".85"/>
+      <circle cx="-11" cy="2" r="1" fill="white" opacity=".75"/>
+      <!-- bolinhas brancas asa dir -->
+      <circle cx="9" cy="-1" r="1.4" fill="white" opacity=".85"/>
+      <circle cx="6" cy="2" r="1.1" fill="white" opacity=".85"/>
+      <circle cx="11" cy="2" r="1" fill="white" opacity=".75"/>
+      <!-- ponto brilhante centro -->
+      <circle cx="0" cy="-1" r="1.5" fill="white" opacity=".7"/>
+    </g>
+  </g>
+</svg></div>
+      <div class="owl-pos owl-mr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120"
+     width="62px" style="display:block;filter:drop-shadow(0 4px 8px rgba(150,0,80,.22))">
   <g transform="scale(-1,1) translate(-100,0)">
     
     
@@ -621,7 +829,7 @@ h1{
         </div>
 
         <div class="actions">
-          <a class="btn btn-wa" id="confirmar" href="#" target="_blank" rel="noopener">💬 Confirmar presença</a>
+          <a class="btn btn-wa" id="confirmar" href="#" target="_blank" rel="noopener">💬 Confirmar</a>
           <a class="btn btn-mp" id="mapa" href="https://www.google.com/maps/place/R.+Carlos+Drumond+de+Andrade,+3+-+Jardim+Shangri-La,+Bauru+-+SP,+17054-635/@-22.3600471,-49.0964771,17z/data=!3m1!4b1!4m5!3m4!1s0x94bf66c2562b4337:0xb39d1793dee2b0c6!8m2!3d-22.3600471!4d-49.0939022?entry=ttu&g_ep=EgoyMDI2MDYwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">📍 Como chegar</a>
         </div>
 
